@@ -1,0 +1,236 @@
+/* stylesheet Padrao da Pagina */
+
+.headerpadrao {
+    background-color: #CCCCCC;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headerdif {
+    background-color: #CCCCCC;
+    padding-top: 20px;
+}
+
+.resoluçao {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    vertical-align: middle;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    vertical-align: top;
+    font-size: 22px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+header nav ul li:hover a{ 
+    color: #C78C19;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+header nav ul li a:active { 
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+    font-size: 24px;
+}
+
+.footerBarbearia {
+    display: inline-block;
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    padding-Top: 20px;
+}
+
+.listafBarbearia {
+    text-align: center;
+}
+
+.listafBarbeariap {
+    font-size: 14px;
+}
+
+/* stylesheet da hello */
+
+.grey {
+    background-color: #CCCCCC;
+}
+
+.beneficios {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.resoluçaodiv {
+    width: 470px;
+    margin: 0 auto;
+}
+
+.resoluçaofinal {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+.negrito {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin: 2%;
+}
+
+.negrito3 {
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.normal {
+    margin: 2% 0 2% 0;
+    font-size: 18px;
+}
+
+.normal2 {
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.italico {
+    font-weight: lighter;
+    font-size: 16px;
+    margin: 4%;
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+
+.beneficiosimg {
+    width: 55%;
+    position: relative;
+    left: 20%;
+}
+
+/* stylesheet da Barbearia 2 */
+.mainBarbearia {
+    width: 940px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.listamBarbearia {
+    display: inline-block;
+    width: 28%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+.imagem {
+    margin: 0 0.5% 0 0.5%;
+}
+
+.preço {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 2px;
+} 
+
+.texto {
+    font-size: 18px;
+    padding-bottom: 20px;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+/* stylesheet de Contatos */
+
+.forms {
+    
+}
+
+.inputforms {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.inputforms2 {
+    padding-bottom: 2px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.outputforms {
+    display: block;
+    margin: 0 0 2%;
+    width: 50%;
+    height: 22px;
+    font-size: 16px;
+}
+
+.outputforms2 {
+    display: block;
+    margin: 0 0 2%;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.negrito2 {
+    font-size: 18px;
+    margin: 0 0 1%;
+    font-weight: bold;
+}
+
+.outputforms3 {
+    width: 16px;
+    height: 16px;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.enviar {
+    display: block;
+    margin: 5% 0;
+    width: 20%;
+    height: 35px;
+    font-size: 18px;
+}

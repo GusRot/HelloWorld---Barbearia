@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">  
+        <link rel="stylesheet" href="barbearia2.css ">
+        <title>Barbearia do Gustavo</title>
+    </head>
+
+    <body>
+        <header class = "headerpadrao"> 
+                <nav class = "resoluçao">
+                    <ul>
+                        <li><img src="imagens/logo.png"></li>  
+                        <li><a href="hello.html">Home</a></li>
+                        <li><a href="index.html">Produtos</a></li>
+                        <li><a href="formulario.html">Contato</a></li>
+                    </ul>
+                </nav>
+        </header>
+    
+    <main class = "resoluçao">
+        
+        <form class = "forms">
+            <label class = "inputforms" for = "nomesobrenome">Nome Completo</label>
+            <input class="outputforms" type = "text" id = "nomesobrenome">
+            
+            <label class = "inputforms" for = "email">Email</label>
+            <input class="outputforms" type = "text" id ="email">
+            
+            <label class = "inputforms" for = "telefone">Telefone</label>
+            <input class="outputforms" type = "telefone" id = "telefone">
+
+            <div>
+                <h1 class="negrito2">Horários Disponíveis</h1>
+                <label class="inputforms2"  for = "horario1">13hrs</label>
+                <input type = "radio" id = "horario1" name = "agendamento">  <br>
+                <label class="inputforms2" for = "horario2">15hrs</label>
+                <input type = "radio" id = "horario2" name = "agendamento">  <br>
+                <label class="inputforms2" for = "horario3">17hrs</label>
+                <input type = "radio" id = "horario3" name = "agendamento">  <br> <br>
+            </div>
+            
+            <label class = "inputforms" for = "mensagem">Observações</label>
+            <textarea class = "outputforms2" cols="20" rows="7" id = "mensagem"></textarea>
+
+            <label class="inputforms" for="novidades">Gostaria de receber as novidades?</label>
+            <p class = "inline">Sim</p>
+            <input id="novidades" type="checkbox">
+           
+            <input class = "enviar" type = "submit">    
+        </form>
+    </main>
+
+    <footer class = "footerBarbearia">
+        <ul> 
+            <li class = "listafBarbearia"><p class = "listafBarbeariap">&copy; Barbearia do Rotta</p></li>
+            <li class = "listafBarbearia"><p class = "listafBarbeariap">Estilo Italiano</p></li>
+            <li class = "listafBarbearia"><img src="imagens/logo-branco.png"></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
