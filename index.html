@@ -10,19 +10,32 @@
     </head>
 
     <body>
-        <header class = headerpadrao> 
-                <nav class="resoluçao">
+        <header class = "headerdif"> 
+                <nav class = "resoluçao">
                     <ul>
                         <li><img src="imagens/logo.png"></li>  
-                        <li><a href="hello.html">Home</a></li>
-                        <li><a href="index.html">Produtos</a></li>
-                        <li><a href="formulario.html">Contato</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
+                <img width="100%" src="imagens/banner.jpg">    
         </header>
     
-        <main class = "mainBarbearia">
-            <ul class = "produtos">
+        <main>
+             <div class = "grey">
+                 <div class="resoluçaofinal">  
+                    <h1 id="sobre" class = "negrito">Sobre a barbearia Rotta </h1>
+                    <p class = "normal2">Localizada no coração da cidade, a Barbearia Rotta traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Rotta já é destaque na cidade e conquista novos clientes a cada dia.</p> 
+                    <br> <br>
+                    <p class="normal2">Nossa missão é: </p>   
+                    <p class = "negrito2"> "Proporcionar auto-estima e qualidade de vida aos clientes".  </p>            
+                    <p class = "normal">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+                </div>
+            </div>
+
+            <section class="mainBarbearia">
+            <ul id="produtos" class = "produtos">
                 <li class = "listamBarbearia">
                     <h2 class="preço">Cabelo</h2>
                     <img class = "imagem" src="imagens/cabelo.jpg">
@@ -42,15 +55,51 @@
                     <h2 class="preço">RS 35,00</h2>
                 </li>
             </ul>
-        </main>
+        </section>
 
+        <section class = "resoluçao">
+            <h1 id="contato" class = "negrito"> Solicite atendimento personalizado em sua residencia</h1>
+            <form class = "forms">
+                <label class = "inputforms" for = "username">Nome Completo</label>
+                <input class="outputforms" type = "text" id = "username" minlength="3" placeholder="" required>
+                
+                <label class = "inputforms" for = "email">Email</label>
+                <input class="outputforms" type = "email" id ="email" minlength="7" placeholder="exemplo@exemplo.com" required>
+                
+                <label class = "inputforms" for = "telefone">Telefone</label>
+                <input class="outputforms" type = "telefone" id = "telefone" maxlength="15" placeholder="(11) 91111-1111" pattern="\([0-9]{2}\) (?:9[0-9]{1})[0-9]{3}-[0-9]{4}" title="Número inválido, necessário adicionar 9" required>
+
+                <div>
+                    <h1 class="negrito2">Horários Disponíveis</h1>
+                    <label class="inputforms2"  for = "hour1">13hrs</label>
+                    <input type = "radio" id = "hour1" name = "agendamento" required>  <br>
+                    <label class="inputforms2" for = "hour2">15hrs</label>
+                    <input type = "radio" id = "hour2" name = "agendamento">  <br>
+                    <label class="inputforms2" for = "hour3">17hrs</label>
+                    <input type = "radio" id = "hour3" name = "agendamento">  <br> <br>
+                </div>
+                
+                <label class = "inputforms" for = "message">Observações</label>
+                <textarea class = "outputforms2" placeholder="Qualquer informação é bem vinda" cols="20" rows="7" id = "message"></textarea>
+
+                <label class="inputforms" for="news">Gostaria de receber as novidades?</label>
+                <p class = "inline">Sim</p>
+                <input id="news" type="checkbox">
+            
+                <input class = "enviar" type = "submit" onclick="submitForms()">    
+            </form>
+        </section>
+
+        </main>
         <footer class = "footerBarbearia">
             <ul> 
                 <li class = "listafBarbearia"><p class = "listafBarbeariap">&copy; Barbearia do Rotta</p></li>
                 <li class = "listafBarbearia"><p class = "listafBarbeariap">Estilo Italiano</p></li>
                 <li class = "listafBarbearia"><img src="imagens/logo-branco.png"></li>
+                <div class="img-footer"></div>
             </ul>
         </footer>
-
+        <script src="script.js"></script>
+        <script src="mask.js"></script>
     </body>
 </html>

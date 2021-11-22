@@ -1,4 +1,3 @@
-/* stylesheet Padrao da Pagina */
 
 .headerpadrao {
     background-color: #CCCCCC;
@@ -15,6 +14,12 @@
 .resoluçao {
     width: 940px;
     margin: 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header nav ul li {
@@ -49,11 +54,21 @@ header nav ul li a:active {
 .footerBarbearia {
     display: inline-block;
     text-align: center;
-    background: url("imagens/bg.jpg");
+    position: relative;
     width: 100%;
     margin-top: 100px;
     padding-bottom: 20px;
     padding-Top: 20px;
+}
+
+.img-footer  {
+    position:absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: url("imagens/bg.jpg");
+    opacity: 0.25;
 }
 
 .listafBarbearia {
@@ -63,8 +78,6 @@ header nav ul li a:active {
 .listafBarbeariap {
     font-size: 14px;
 }
-
-/* stylesheet da hello */
 
 .grey {
     background-color: #CCCCCC;
@@ -126,10 +139,9 @@ header nav ul li a:active {
     left: 20%;
 }
 
-/* stylesheet da Barbearia 2 */
 .mainBarbearia {
     width: 940px;
-    margin: 0 auto;
+    margin: 30px auto;
     padding-left: 40px;
 }
 
@@ -175,8 +187,6 @@ header nav ul li a:active {
 .produtos li:active {
     border-color: green;
 }
-
-/* stylesheet de Contatos */
 
 .forms {
     
